@@ -3,6 +3,11 @@ return {
     "AstroNvim/astrocore",
     ---@type AstroCoreOpts
     opts = {
+      options = {
+        opt = {
+          colorcolumn = "100",
+        },
+      },
       mappings = {
         -- first key is the mode
         n = {

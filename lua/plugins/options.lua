@@ -15,6 +15,7 @@ return {
           -- mappings seen under group name "Buffer"
           ["<tab>"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "New tab" },
           ["<S-tab>"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous tab" },
+          ["<leader>go"] = { ":Neotree position=float git_status<CR>", desc = "Git status" },
         },
       },
     },

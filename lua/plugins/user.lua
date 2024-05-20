@@ -11,6 +11,9 @@ return {
       opts.filesystem.filtered_items = {
         hide_gitignored = false,
         hide_dotfiles = false,
+        hide_by_name = {
+          "node_modules",
+        },
       }
     end,
   },
